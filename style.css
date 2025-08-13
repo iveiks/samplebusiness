@@ -42,7 +42,7 @@ body {
 .main-div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
 }
@@ -221,4 +221,14 @@ body {
   border-width: 1px;
   border-color: white;
   border-style: solid;
+}
+
+.footer {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  height: 80px;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
 }
